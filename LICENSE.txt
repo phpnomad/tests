@@ -1,0 +1,7 @@
+/** 
+ * Copyright (C) Alex Standiford LLC - All Rights Reserved
+ *
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Alex Standiford<alex@standiford.us>, 10/5/2023
+ */

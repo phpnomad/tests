@@ -1,0 +1,36 @@
+{
+    "name": "phoenix/tests",
+    "description": "Testing library for Phoenix",
+    "type": "library",
+    "homepage": "https://github.com/rooted-phoenix/tests",
+    "readme": "README.md",
+    "license": "proprietary",
+    "scripts": {
+        "php-cs-fixer": "php-cs-fixer fix"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phoenix\\Tests\\": "lib/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Standiford",
+            "email": "alex@standiford.us"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/rooted-phoenix/tests/issues",
+        "forum": "https://github.com/rooted-phoenix/tests/discussions",
+        "source": "https://github.com/rooted-phoenix/tests/releases",
+        "chat": "https://matrix.to/#/#project-phoenix:matrix.org"
+    },
+    "require": {
+        "phpstan/phpstan": "^1.9",
+        "friendsofphp/php-cs-fixer": "^3.13",
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5",
+        "phpstan/phpstan-mockery": "^1.1",
+        "phpstan/extension-installer": "^1.2"
+    }
+}
