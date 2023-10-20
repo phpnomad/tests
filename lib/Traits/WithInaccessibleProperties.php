@@ -38,4 +38,17 @@ trait WithInaccessibleProperties
 
         $reflection_property->setValue($object, $value);
     }
+
+    /**
+     * Gets a property that is otherwise inaccessible.
+     *
+     * @param object $object
+     * @param string $property
+     * @return mixed
+     * @throws ReflectionException
+     */
+    protected function getProtectedPropertyValue(object $object, string $property)
+    {
+        return $this->getProtectedProperty($object,$property)->getValue($object);
+    }
 }
