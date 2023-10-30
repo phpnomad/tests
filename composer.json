@@ -1,8 +1,8 @@
 {
-    "name": "phoenix/tests",
-    "description": "Testing library for Phoenix",
+    "name": "phpnomad/tests",
+    "description": "Testing library for PHPNomad",
     "type": "library",
-    "homepage": "https://github.com/rooted-phoenix/tests",
+    "homepage": "https://github.com/phpnomad/tests",
     "readme": "README.md",
     "license": "proprietary",
     "scripts": {
@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Phoenix\\Tests\\": "lib/"
+            "PHPNomad\\Tests\\": "lib/"
         }
     },
     "authors": [
