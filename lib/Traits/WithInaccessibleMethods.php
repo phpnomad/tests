@@ -1,6 +1,6 @@
 <?php
 
-namespace Phoenix\Tests\Traits;
+namespace PHPNomad\Tests\Traits;
 
 use ReflectionClass;
 use ReflectionException;

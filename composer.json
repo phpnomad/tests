@@ -20,10 +20,10 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/rooted-phoenix/tests/issues",
-        "forum": "https://github.com/rooted-phoenix/tests/discussions",
-        "source": "https://github.com/rooted-phoenix/tests/releases",
-        "chat": "https://matrix.to/#/#project-phoenix:matrix.org"
+        "issues": "https://github.com/phpnomad/tests/issues",
+        "forum": "https://github.com/phpnomad/tests/discussions",
+        "source": "https://github.com/phpnomad/tests/releases",
+        "chat": "https://matrix.to/#/#project-phpnomad:matrix.org"
     },
     "require": {
         "phpstan/phpstan": "^1.9",

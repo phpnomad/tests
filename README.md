@@ -1,7 +1,7 @@
-# Phoenix Testing Library
+# PHPNomad Testing Library
 
-This repository contains all the test features used by the various packages in Phoenix.
+This repository contains all the test features used by the various packages in PHPNomad.
 
 ## Installation
 
-`composer require --dev phoenix/tests`
+`composer require --dev phpnomad/tests`
