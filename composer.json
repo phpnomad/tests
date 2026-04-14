@@ -26,11 +26,11 @@
         "chat": "https://matrix.to/#/#project-phpnomad:matrix.org"
     },
     "require": {
-        "phpstan/phpstan": "^1.9",
+        "phpstan/phpstan": "^2.0",
         "friendsofphp/php-cs-fixer": "^3.13",
         "phpunit/phpunit": "^9.5 || ^11.0",
         "mockery/mockery": "^1.5",
-        "phpstan/phpstan-mockery": "^1.1",
+        "phpstan/phpstan-mockery": "^2.0",
         "phpstan/extension-installer": "^1.2"
     }
 }
